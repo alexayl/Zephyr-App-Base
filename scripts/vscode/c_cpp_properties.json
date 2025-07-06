@@ -2,7 +2,7 @@
     "configurations": [
         {
             "name": "Zephyr",
-            "compileCommands": "${workspaceFolder}/{{APP_NAME}}/build-esp32/compile_commands.json",
+            "compileCommands": "${workspaceFolder}/{{APP_NAME}}/build/compile_commands.json",
             "cStandard": "c11",
             "cppStandard": "c++17"
         }
