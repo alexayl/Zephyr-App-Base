@@ -1,1 +1,1 @@
-a readme
+Stripped down and optimized version of Zephyr's [example application](https://github.com/zephyrproject-rtos/example-application)

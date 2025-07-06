@@ -13,7 +13,7 @@ init:
     sh ./scripts/setup.sh
 
 # --- ESP32-S3 Tasks ---
-build-esp32:
+build-esp32: clean
     (cd .. && west build \
         -p always \
         -b "{{ESP_BOARD}}/esp32s3/procpu" \
@@ -24,7 +24,7 @@ build-esp32:
 
 
 # --- Nucleo F302R8 Tasks ---
-build-nucleo:
+build-nucleo: clean
     (cd .. && west build \
         -p always \
         -b {{NUCLEO_BOARD}} \
