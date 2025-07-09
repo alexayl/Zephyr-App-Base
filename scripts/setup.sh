@@ -1,6 +1,8 @@
 #!/bin/bash
-
 # This script automates the setup of the VS Code workspace for this project.
+
+# 0. Update west
+west update
 
 # Determine the script's location to make it runnable from anywhere
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
