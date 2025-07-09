@@ -3,7 +3,7 @@
 
 manifest:
   self:
-    path: .
+    path: zephyr-app-base
 
   remotes:
     - name: zephyrproject-rtos
