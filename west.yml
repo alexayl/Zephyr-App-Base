@@ -6,8 +6,8 @@ manifest:
     path: .
 
   remotes:
-    - name: zephyr-app-base
-      url-base: https://github.com/alexayl/Zephyr-App-Base
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
 
   projects:
     - name: zephyr
